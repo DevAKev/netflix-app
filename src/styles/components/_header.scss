@@ -1,0 +1,87 @@
+$gradient: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.8) 0,
+  rgba(0, 0, 0, 0) 60%,
+  rgba(0, 0, 0, 0.8) 100%
+);
+
+header {
+  //   background: rgb(0 0 0 / 40%);
+  background-image: $gradient,
+    url(../../assets/backgrounds/netflix-home-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  transform: scale(1.25) translateY(-10%);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// ## MOBILE ##
+.mobile-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  height: 3.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 150px;
+  left: 0;
+  right: 100px;
+  z-index: 1000;
+}
+
+.mobile-header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 3.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 50px;
+  right: 0;
+  z-index: 1000;
+}
+@media screen and (min-width: 600px) {
+  .mobile-header_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.mobile-header_logo {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+// ## DESKTOP ##
+.desktop-header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 3.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.desktop-header_logo {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}

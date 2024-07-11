@@ -1,10 +1,10 @@
-import logo from "@assets/logos/netflix.svg";
+import Header from "@components/Header/Header";
 
 const Home = () => {
   return (
     <>
+      <Header />
       <h1>Home</h1>
-      <img src={logo} alt="Netflix Logo" />
     </>
   );
 };

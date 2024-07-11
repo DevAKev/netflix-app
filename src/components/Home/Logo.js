@@ -5,16 +5,15 @@ const Logo = () => {
   const isMobile = window.innerWidth < 1023;
   //   const { theme } = useTheme();
   return (
-    // <div className={`company-logo-container ${theme}-mode`}>
-    <a href="#home">
+    <div className={"logo-container"}>
+      {/* ${theme}-mode */}
       <img
         loading="lazy"
-        id={isMobile ? "mobile-logo" : "desktop-logo"}
+        className={isMobile ? "mobile-header_logo" : "desktop-header__logo"}
         src={logo}
         alt="Logo Netflix"
       />
-    </a>
-    // </div>
+    </div>
   );
 };
 
