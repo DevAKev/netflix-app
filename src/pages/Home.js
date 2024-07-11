@@ -1,4 +1,4 @@
-import logo from "../assets/logos/netflix.svg";
+import logo from "@assets/logos/netflix.svg";
 
 const Home = () => {
   return (
