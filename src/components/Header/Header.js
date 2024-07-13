@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
-import Logo from "@components/Home/Logo";
+import Logo from "@components/Header/HeaderComponents/Logo";
 import DesktopHeader from "./DesktopHeader";
 import MobileHeader from "./MobileHeader";
 
