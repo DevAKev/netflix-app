@@ -15,7 +15,7 @@ const Header = ({ className }) => {
   }, []);
 
   return (
-    <>
+    <div className="header-container">
       <header className={`box ${className} header`}>
         <div className="box1">
           <div className="flex_row">
@@ -31,7 +31,7 @@ const Header = ({ className }) => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

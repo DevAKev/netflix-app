@@ -5,36 +5,27 @@ $gradient: linear-gradient(
   rgba(0, 0, 0, 0.8) 100%
 );
 
-header {
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   background-image: $gradient,
     url(../../assets/backgrounds/home-background.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
+  z-index: 0;
+}
+
+header {
+  background: rgb(0 0 0 / 40%);
   width: inherit;
   height: 100vh;
-  // transform: scale(1.25) translateY(-10%);
   position: relative;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin: auto;
-  ::after {
-    content: "";
-    display: none;
-    border-bottom: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: calc(1.5rem - 0.0625rem);
-  }
+
   @media screen and (min-width: 600px) {
     header {
       padding-right: 2rem;
@@ -133,7 +124,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
