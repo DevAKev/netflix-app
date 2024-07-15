@@ -1,6 +1,7 @@
 // Import all files scss in this folder
 @import "./settings";
-@import "./src/styles/components/_header";
+@import "./src/styles/components/Header/_header";
+@import "./src/styles/components/Header/_logo";
 @import "./src/styles/components/_popcornBanner";
 // @import "./src/styles/components/_layout";
 // @import "./src/styles/components/_about";

@@ -9,7 +9,7 @@ const Logo = () => {
       {/* ${theme}-mode */}
       <img
         loading="lazy"
-        className={isMobile ? "mobile-header_logo" : "desktop-header__logo"}
+        className={isMobile ? "mobile-header_logo" : "desktop-header_logo"}
         src={logo}
         alt="Logo Netflix"
       />

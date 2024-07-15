@@ -1,0 +1,32 @@
+// ## MOBILE ##
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+
+  .mobile-header_logo {
+    width: 100px;
+    height: auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    left: 50px;
+  }
+}
+
+// ## DESKTOP ##
+.desktop-logo-container {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  z-index: 1000;
+
+  .desktop-header_logo {
+    width: 100px;
+    height: auto;
+  }
+  @media screen and (min-width: 1024px) {
+    left: 50px;
+  }
+}
