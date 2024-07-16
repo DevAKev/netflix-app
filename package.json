@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
+    "plop": "^4.0.1",
     "react-app-rewired": "^2.2.1"
   }
 }
