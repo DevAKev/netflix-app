@@ -1,0 +1,29 @@
+.tv-text__container {
+  width: 40%;
+  position: relative;
+  display: inline-block;
+  right: 20%;
+  overflow: hidden;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tv-text__title {
+  margin-top: 50px;
+  font-size: 2.5em;
+}
+
+.tv-text__description {
+  font-size: 1rem;
+}
+
+.tv-animation {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 50px;
+  margin: 50px;
+}

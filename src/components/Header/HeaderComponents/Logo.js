@@ -1,5 +1,5 @@
 // import { useTheme } from "@hooks/ThemeContext";
-import logo from "@assets/logos/netflix.svg";
+import logo from "@assets/logos/astream-logo-big.png";
 
 const Logo = () => {
   const isMobile = window.innerWidth < 1023;
@@ -7,12 +7,14 @@ const Logo = () => {
   return (
     <div className={"logo-container"}>
       {/* ${theme}-mode */}
-      <img
-        loading="lazy"
-        className={isMobile ? "mobile-header_logo" : "desktop-header_logo"}
-        src={logo}
-        alt="Logo Netflix"
-      />
+      <a href="/" className="logo-link">
+        <img
+          loading="lazy"
+          className={isMobile ? "mobile-header_logo" : "desktop-header_logo"}
+          src={logo}
+          alt="Logo Netflix"
+        />
+      </a>
     </div>
   );
 };
