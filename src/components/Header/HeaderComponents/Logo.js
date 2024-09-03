@@ -12,7 +12,7 @@ const Logo = () => {
           loading="lazy"
           className={isMobile ? "mobile-header_logo" : "desktop-header_logo"}
           src={logo}
-          alt="Logo Netflix"
+          alt="Logo Astreamia"
         />
       </a>
     </div>

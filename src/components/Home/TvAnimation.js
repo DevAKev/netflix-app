@@ -3,10 +3,13 @@ const TvAnimation = () => {
   return (
     <>
       <div className="tv-text__container">
-        <h2 className="tv-text__title">Regardez Netflix sur votre TV</h2>
+        <h2 className="tv-text__title">
+          Vos films préférés directement sur votre TV grâce à Astreamia.
+        </h2>
         <p className="tv-text__description">
-          Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast,
-          Apple TV, lecteurs Blu-ray et bien plus.
+          Astreamia vous aide à trouver de l'inspiration pour voir des films et
+          séries sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV,
+          lecteurs Blu-ray et bien plus.
         </p>
       </div>
       <div className="tv-animation">

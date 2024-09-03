@@ -13,7 +13,7 @@ const PopCornBanner = () => {
         </div>
         <div className="popcorn-banner__text-container">
           <h2 className="popcorn-banner__title">
-            Le Netflix que vous aimez pour juste 5,99€.
+            Profitez de tout Astreamia pour seulement 5,99€.
           </h2>
           <p className="popcorn-banner__description">
             Choissisez l'offre Standard avec pub.

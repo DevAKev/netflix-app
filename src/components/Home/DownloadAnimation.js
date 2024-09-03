@@ -10,7 +10,7 @@ const DownloadAnimation = () => {
             Téléchargez vos séries pour les regarder hors connexion
           </h2>
           <p className="download-text__description">
-            Regardez Netflix dans l'avion, le train, le sous-marin…
+            Utilisez Astreamia dans l'avion, le train, le sous-marin…
           </p>
         </div>
       </div>
